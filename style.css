@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    margin: auto;
+    background-color: rgb(64, 210, 210);
+}
+
+.btn {
+    background-color: rgb(18, 177, 63);
+    border-radius: 6px;
+    border: none;
+    color: white;
+    margin: 1.2rem;
+    padding: 1.7rem 3rem;
+    font-size: 1.5rem;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    transform: scale(1.2);
+    color: rgb(11, 70, 119);
+}
+
+.btn:focus {
+    outline: none;
+}
